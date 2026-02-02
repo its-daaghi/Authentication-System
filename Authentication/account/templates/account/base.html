@@ -28,7 +28,7 @@
             </li>
              <li>
                <!-- Logout Button -->
-               <form method="post" action="#">
+               <form method="post" action="{% url 'logout' %}">
                 {% csrf_token %}
                 <button type="submit" class="px-3 py-1 text-sm text-white bg-rose-700 rounded-lg hover:bg-rose-900">Logout</button>
               </form>

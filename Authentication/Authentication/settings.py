@@ -135,4 +135,4 @@ EMAIL_HOST_PASSWORD = "d2b007d29dbcdd"  # Mailtrap SMTP password
 
 DEFAULT_FROM_EMAIL = "no-reply@authsystem.com"  # fake sender for testing
 
-# Looking to send emails in production? Check out our Email API/SMTP product!
+LOGOUT_REDIRECT_URL = "login"

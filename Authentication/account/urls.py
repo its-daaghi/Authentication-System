@@ -24,4 +24,5 @@ urlpatterns = [
         password_reset_confirm_view,
         name="password_reset_confirm",
     ),
+    path("logout/", LogoutView.as_view(), name="logout"),
 ]
